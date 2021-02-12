@@ -1,0 +1,162 @@
+body {
+	margin: 0px;
+}
+
+#body-header {
+	height: 65vh;
+	opacity: 0.8;
+	background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+#nav {
+	list-style: none;
+	text-align: center;
+	margin: 0px;
+	padding-top: 15px;
+	color: white;
+}
+#nav li {
+	font-size: 0.9em;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+#nav li a {
+	text-decoration: none;
+	color: white;	
+
+}
+#nav li a:hover {
+	color: lightgrey;	
+	transition: color 0.5s;
+}
+
+#name {
+	font-family: verdana;
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 130px;
+	font-size: 40px;
+}
+
+#social {
+	padding: 0px;
+}
+
+.social-icons {
+	padding: 10px;
+}
+.social-icons:hover{
+	border-radius: 50%;
+    box-shadow: 0px 0px 8px 6px rgba(230, 196, 196, 0.3);
+}
+#my-image {
+	height: 200px;
+	width: 200px;
+	margin: auto;
+	margin-top: -17vh;
+		position: relative;
+}
+#my-image img {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+#about {
+	width: 70vw;
+	height: 50vh;
+	margin: auto;
+}
+#intro {
+	height: 35vh;
+	font-size: 1.2rem;
+	text-align: justify;
+	overflow: auto;
+}
+section:nth-child(n){
+	padding-top: 20px;
+	text-align: center;
+}	
+.fa-chalkboard-teacher,.fa-briefcase {
+	margin-right: 10px;
+	color: blue;
+}
+#skills {
+	overflow: auto;
+	background-color: lightgrey;
+	height: 50vh;
+}
+#skill-names {
+	margin:auto;
+	width: 70vw;
+	height: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#skill-names>div {
+	font-size: 1rem;
+	width:15%;
+	background-color: #b5b0b0;
+	border-radius: 30px;
+	margin: 5% ;
+}
+.sub-heading {
+	color: blue;
+}
+.percent-left-radius {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	text-align: left;
+}
+.fifty-percent {
+	width: 50%;
+	height: 5vh;
+	background-color: orange;
+}
+.sixty-percent {
+	width: 60%;
+	height: 5vh;
+	background-color: skyblue;
+}
+.seventy-percent {
+	width: 70%;
+	height: 5vh;
+	background-color: pink;
+}
+.ninety-percent {
+	width: 90%;
+	height: 5vh;
+	background-color: lightgreen;
+}
+#portfolio {
+	width: 70vw;
+	height: 75vh;
+	margin: auto;
+}
+#portfolio-div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	overflow: auto;
+}
+
+#portfolio-div>img {
+	width: 26%;
+	height: auto;
+}
+
+#contact {
+	margin: auto;
+	height: 60vh;
+	background : linear-gradient(90deg, #2857a4,#403066);
+}
+.fa-id-card {
+	color: white;
+}
+.sub-heading-contact>span {
+	color: white;
+	margin-left : 5px;
+}
